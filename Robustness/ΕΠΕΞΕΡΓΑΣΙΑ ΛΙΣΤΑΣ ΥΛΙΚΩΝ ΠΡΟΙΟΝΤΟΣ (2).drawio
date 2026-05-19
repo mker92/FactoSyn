@@ -1,115 +1,285 @@
-﻿<mxfile host="app.diagrams.net" modified="2026-05-05T00:00:00.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="24.7.17" type="device">
-<diagram id="rd05" name="RD-05 Επεξεργασία Λίστας Υλικών">
-    <mxGraphModel dx="1600" dy="980" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="980" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36">
+  <diagram id="rd05" name="RD-05 Επεξεργασία Λίστας Υλικών">
+    <mxGraphModel dx="1414" dy="759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="980" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="uc05_actor" value="Διαχειριστής" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=9;" vertex="1" parent="1"><mxGeometry x="40" y="410" width="28" height="56" as="geometry"/></mxCell>
-        <mxCell id="uc05_menu" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="155" y="430" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_menu_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_menu"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_menu_boundary_mark" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_menu"><mxGeometry x="0" y="7" width="1" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_menu_lbl" value="Μενού
-Διαχειριστή" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="87" y="461" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_select" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="330" y="430" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_select_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_select"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_select_control_arrow" value="" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_select"><mxGeometry x="3" y="1" width="9" height="8" as="geometry"/></mxCell>
-        <mxCell id="uc05_select_lbl" value="Επιλογή επεξεργασίας
-λίστας υλικών" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="262" y="461" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_plist" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="505" y="430" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_plist_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_plist"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_plist_boundary_mark" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_plist"><mxGeometry x="0" y="7" width="1" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_plist_lbl" value="Λίστα
-προϊόντων" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="437" y="461" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_selectprod" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="680" y="430" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_selectprod_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_selectprod"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_selectprod_control_arrow" value="" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_selectprod"><mxGeometry x="3" y="1" width="9" height="8" as="geometry"/></mxCell>
-        <mxCell id="uc05_selectprod_lbl" value="Επιλογή
-προϊόντος" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="612" y="461" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_product" value="" style="swimlane;startSize=10;horizontal=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;container=0;collapsible=0;" vertex="1" parent="1"><mxGeometry x="865" y="430" width="54" height="32" as="geometry"/></mxCell>
-        <mxCell id="uc05_product_lbl" value="Προϊόν" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="807" y="466" width="170" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_mform" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="1075" y="430" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_mform_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_mform"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_mform_boundary_mark" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_mform"><mxGeometry x="0" y="7" width="1" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_mform_lbl" value="Φόρμα υλικών
-και ποσοτήτων" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="1007" y="461" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_selectmat" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="1075" y="610" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_selectmat_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_selectmat"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_selectmat_control_arrow" value="" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_selectmat"><mxGeometry x="3" y="1" width="9" height="8" as="geometry"/></mxCell>
-        <mxCell id="uc05_selectmat_lbl" value="Επιλογή υλικών
-και ποσοτήτων" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="1007" y="641" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_material" value="" style="swimlane;startSize=10;horizontal=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;container=0;collapsible=0;" vertex="1" parent="1"><mxGeometry x="878" y="625" width="54" height="32" as="geometry"/></mxCell>
-        <mxCell id="uc05_material_lbl" value="Υλικό" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="820" y="661" width="170" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_validate" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="680" y="610" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_validate_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_validate"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_validate_control_arrow" value="" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_validate"><mxGeometry x="3" y="1" width="9" height="8" as="geometry"/></mxCell>
-        <mxCell id="uc05_validate_lbl" value="Έλεγχος
-ποσοτήτων" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="612" y="641" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_calc" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="505" y="720" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_calc_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_calc"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_calc_control_arrow" value="" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_calc"><mxGeometry x="3" y="1" width="9" height="8" as="geometry"/></mxCell>
-        <mxCell id="uc05_calc_lbl" value="Υπολογισμός
-κόστους" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="437" y="751" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_bom" value="" style="swimlane;startSize=10;horizontal=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;container=0;collapsible=0;" vertex="1" parent="1"><mxGeometry x="330" y="720" width="54" height="32" as="geometry"/></mxCell>
-        <mxCell id="uc05_bom_lbl" value="Λίστα υλικών
-προϊόντος" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="272" y="756" width="170" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_confirm" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="330" y="820" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_confirm_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_confirm"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_confirm_boundary_mark" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_confirm"><mxGeometry x="0" y="7" width="1" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_confirm_lbl" value="Επιβεβαίωση
-αποθήκευσης" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="262" y="851" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_done" value="" style="group;html=1;connectable=1;" vertex="1" parent="1"><mxGeometry x="155" y="820" width="28" height="28" as="geometry"/></mxCell>
-        <mxCell id="uc05_done_circle" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_done"><mxGeometry x="4" y="4" width="20" height="20" as="geometry"/></mxCell>
-        <mxCell id="uc05_done_boundary_mark" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="uc05_done"><mxGeometry x="0" y="7" width="1" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_done_lbl" value="Επιστροφή
-στο μενού" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="87" y="851" width="164" height="34" as="geometry"/></mxCell>
-        <mxCell id="uc05_noproduct" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ff0000;strokeColor=#ff0000;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="680" y="205" width="14" height="14" as="geometry"/></mxCell>
-        <mxCell id="uc05_noproduct_lbl" value="Μήνυμα: δεν
-επιλέχθηκε προϊόν" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="602" y="163" width="170" height="32" as="geometry"/></mxCell>
-        <mxCell id="uc05_nomaterials" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ff0000;strokeColor=#ff0000;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="1075" y="205" width="14" height="14" as="geometry"/></mxCell>
-        <mxCell id="uc05_nomaterials_lbl" value="Μήνυμα: δεν υπάρχουν
-διαθέσιμα υλικά" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="997" y="163" width="170" height="32" as="geometry"/></mxCell>
-        <mxCell id="uc05_badqty" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ff0000;strokeColor=#ff0000;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="680" y="800" width="14" height="14" as="geometry"/></mxCell>
-        <mxCell id="uc05_badqty_lbl" value="Μήνυμα: μη έγκυρη
-ποσότητα" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="602" y="758" width="170" height="32" as="geometry"/></mxCell>
-        <mxCell id="uc05_e1" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_actor" target="uc05_menu"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e2" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_menu" target="uc05_select"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e3" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_select" target="uc05_plist"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e4" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_plist" target="uc05_selectprod"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e5" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_selectprod" target="uc05_product"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e6" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_selectprod" target="uc05_mform"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e7" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_mform" target="uc05_selectmat"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e8" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_selectmat" target="uc05_material"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e9" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_mform" target="uc05_validate"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e10" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_validate" target="uc05_bom"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e11" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_mform" target="uc05_calc"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e12" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_calc" target="uc05_product"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e13" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_calc" target="uc05_confirm"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e14" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_calc" target="uc05_bom"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_e15" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_confirm" target="uc05_done"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_a1" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_selectprod" target="uc05_noproduct"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_a2" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_noproduct" target="uc05_plist"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_a3" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_selectmat" target="uc05_nomaterials"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_a4" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_nomaterials" target="uc05_mform"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_a5" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_validate" target="uc05_badqty"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_a6" value="" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" edge="1" parent="1" source="uc05_badqty" target="uc05_mform"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="uc05_l1" value="επιλογή" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="75" y="405" width="90" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l2" value="2. εμφανίζει προϊόντα" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="385" y="405" width="145" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l3" value="3. επιλογή" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="560" y="405" width="90" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l4" value="4. διαβάζει προϊόν" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="735" y="405" width="130" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l5" value="άνοιγμα φόρμας" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="935" y="405" width="140" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l6" value="6. υλικά + ποσότητες" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="1110" y="525" width="140" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l7" value="ανάγνωση υλικών" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="925" y="585" width="130" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l8" value="8. έλεγχος ποσοτήτων" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="760" y="585" width="150" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l9" value="9. ενημέρωση λίστας" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="470" y="665" width="150" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l10" value="10. ενημέρωση κόστους προϊόντος" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="760" width="210" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l11" value="11. επιβεβαίωση" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="360" y="785" width="120" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_l12" value="12. τέλος" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="215" y="800" width="90" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_a1t" value="A1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="650" y="310" width="40" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_a2t" value="επιστροφή" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="585" y="300" width="80" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_a3t" value="A2" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="1040" y="310" width="40" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_a4t" value="επιστροφή" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="965" y="275" width="80" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_a5t" value="A3" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="650" y="700" width="40" height="18" as="geometry"/></mxCell>
-        <mxCell id="uc05_a6t" value="διόρθωση" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="765" y="730" width="80" height="18" as="geometry"/></mxCell>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc05_actor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=9;" value="Διαχειριστής" vertex="1">
+          <mxGeometry height="56" width="28" x="40" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_menu" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="155" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_menu_circle" parent="uc05_menu" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_menu_boundary_mark" parent="uc05_menu" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="18" width="1" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_menu_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Μενού Διαχειριστή" vertex="1">
+          <mxGeometry height="34" width="164" x="87" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_select" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="330" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_select_circle" parent="uc05_select" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_select_control_arrow" parent="uc05_select" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="8" width="9" x="3" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_select_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Επιλογή επεξεργασίας λίστας υλικών" vertex="1">
+          <mxGeometry height="34" width="164" x="262" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_plist" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="505" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_plist_circle" parent="uc05_plist" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_plist_boundary_mark" parent="uc05_plist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="18" width="1" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_plist_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Λίστα προϊόντων" vertex="1">
+          <mxGeometry height="34" width="164" x="437" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_selectprod" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="680" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_selectprod_circle" parent="uc05_selectprod" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_selectprod_control_arrow" parent="uc05_selectprod" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="8" width="9" x="3" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_selectprod_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Επιλογή προϊόντος" vertex="1">
+          <mxGeometry height="34" width="164" x="612" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_product" parent="1" style="swimlane;startSize=10;horizontal=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;container=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="32" width="54" x="865" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_product_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Προϊόν" vertex="1">
+          <mxGeometry height="34" width="170" x="807" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_mform" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="1075" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_mform_circle" parent="uc05_mform" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_mform_boundary_mark" parent="uc05_mform" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="18" width="1" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_mform_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Φόρμα υλικών και ποσοτήτων" vertex="1">
+          <mxGeometry height="34" width="164" x="1007" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_selectmat" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="1075" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_selectmat_circle" parent="uc05_selectmat" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_selectmat_control_arrow" parent="uc05_selectmat" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="8" width="9" x="3" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_selectmat_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Επιλογή υλικών και ποσοτήτων" vertex="1">
+          <mxGeometry height="34" width="164" x="1007" y="641" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_material" parent="1" style="swimlane;startSize=10;horizontal=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;container=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="32" width="54" x="878" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_material_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Υλικό" vertex="1">
+          <mxGeometry height="34" width="170" x="820" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_validate" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="680" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_validate_circle" parent="uc05_validate" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_validate_control_arrow" parent="uc05_validate" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="8" width="9" x="3" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_validate_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Έλεγχος ποσοτήτων" vertex="1">
+          <mxGeometry height="34" width="164" x="612" y="641" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_calc" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="505" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_calc_circle" parent="uc05_calc" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_calc_control_arrow" parent="uc05_calc" style="shape=triangle;direction=east;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="8" width="9" x="3" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_calc_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Υπολογισμός κόστους" vertex="1">
+          <mxGeometry height="34" width="164" x="437" y="751" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_bom" parent="1" style="swimlane;startSize=10;horizontal=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;container=0;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="32" width="54" x="330" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_bom_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Λίστα υλικών προϊόντος" vertex="1">
+          <mxGeometry height="34" width="170" x="272" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_confirm" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="330" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_confirm_circle" parent="uc05_confirm" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_confirm_boundary_mark" parent="uc05_confirm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="18" width="1" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_confirm_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Επιβεβαίωση αποθήκευσης" vertex="1">
+          <mxGeometry height="34" width="164" x="262" y="851" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_done" parent="1" style="group;html=1;connectable=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="155" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_done_circle" parent="uc05_done" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="4" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_done_boundary_mark" parent="uc05_done" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="18" width="1" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_done_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="Επιστροφή στο μενού" vertex="1">
+          <mxGeometry height="34" width="164" x="87" y="851" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_noproduct" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ff0000;strokeColor=#ff0000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="680" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_noproduct_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="Μήνυμα: δεν επιλέχθηκε προϊόν" vertex="1">
+          <mxGeometry height="32" width="170" x="602" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_nomaterials" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ff0000;strokeColor=#ff0000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1075" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_nomaterials_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="Μήνυμα: δεν υπάρχουν διαθέσιμα υλικά" vertex="1">
+          <mxGeometry height="32" width="170" x="997" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_badqty" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ff0000;strokeColor=#ff0000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="680" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_badqty_lbl" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="Μήνυμα: μη έγκυρη ποσότητα" vertex="1">
+          <mxGeometry height="32" width="170" x="602" y="758" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e1" edge="1" parent="1" source="uc05_actor" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_menu" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e2" edge="1" parent="1" source="uc05_menu" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_select" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e3" edge="1" parent="1" source="uc05_select" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_plist" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e4" edge="1" parent="1" source="uc05_plist" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_selectprod" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e5" edge="1" parent="1" source="uc05_selectprod" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_product" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e6" edge="1" parent="1" source="uc05_selectprod" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_mform" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e7" edge="1" parent="1" source="uc05_mform" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_selectmat" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e8" edge="1" parent="1" source="uc05_selectmat" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_material" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e9" edge="1" parent="1" source="uc05_mform" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_validate" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e10" edge="1" parent="1" source="uc05_validate" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_bom" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e11" edge="1" parent="1" source="uc05_mform" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_calc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e12" edge="1" parent="1" source="uc05_calc" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_product" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e13" edge="1" parent="1" source="uc05_calc" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_confirm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e14" edge="1" parent="1" source="uc05_calc" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_bom" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_e15" edge="1" parent="1" source="uc05_confirm" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#000000;fontSize=9;fontColor=#000000;labelBackgroundColor=none;" target="uc05_done" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a1" edge="1" parent="1" source="uc05_selectprod" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" target="uc05_noproduct" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a2" edge="1" parent="1" source="uc05_noproduct" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" target="uc05_plist" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a3" edge="1" parent="1" source="uc05_selectmat" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" target="uc05_nomaterials" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a4" edge="1" parent="1" source="uc05_nomaterials" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" target="uc05_mform" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a5" edge="1" parent="1" source="uc05_validate" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" target="uc05_badqty" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a6" edge="1" parent="1" source="uc05_badqty" style="endArrow=block;startArrow=none;html=1;rounded=0;strokeWidth=1.2;strokeColor=#ff0000;fontSize=9;fontColor=#ff0000;labelBackgroundColor=none;" target="uc05_mform" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="επιλογή" vertex="1">
+          <mxGeometry height="18" width="90" x="75" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="2. εμφανίζει προϊόντα" vertex="1">
+          <mxGeometry height="18" width="145" x="385" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="3. επιλογή" vertex="1">
+          <mxGeometry height="18" width="90" x="560" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="4. διαβάζει προϊόν" vertex="1">
+          <mxGeometry height="18" width="130" x="735" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="άνοιγμα φόρμας" vertex="1">
+          <mxGeometry height="18" width="140" x="935" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="6. υλικά + ποσότητες" vertex="1">
+          <mxGeometry height="18" width="140" x="1110" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="ανάγνωση υλικών" vertex="1">
+          <mxGeometry height="18" width="130" x="925" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="8. έλεγχος ποσοτήτων" vertex="1">
+          <mxGeometry height="18" width="150" x="760" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="9. ενημέρωση λίστας" vertex="1">
+          <mxGeometry height="18" width="150" x="470" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="10. ενημέρωση κόστους προϊόντος" vertex="1">
+          <mxGeometry height="18" width="210" x="620" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="11. επιβεβαίωση" vertex="1">
+          <mxGeometry height="18" width="120" x="360" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_l12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#000000;spacing=0;rounded=0;whiteSpace=wrap;" value="12. τέλος" vertex="1">
+          <mxGeometry height="18" width="90" x="215" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a1t" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="A1" vertex="1">
+          <mxGeometry height="18" width="40" x="650" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a2t" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="επιστροφή" vertex="1">
+          <mxGeometry height="18" width="80" x="585" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a3t" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="A2" vertex="1">
+          <mxGeometry height="18" width="40" x="1040" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a4t" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="επιστροφή" vertex="1">
+          <mxGeometry height="18" width="80" x="965" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a5t" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="A3" vertex="1">
+          <mxGeometry height="18" width="40" x="650" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="uc05_a6t" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=9;align=center;verticalAlign=middle;fontColor=#ff0000;spacing=0;rounded=0;whiteSpace=wrap;" value="διόρθωση" vertex="1">
+          <mxGeometry height="18" width="80" x="765" y="730" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
