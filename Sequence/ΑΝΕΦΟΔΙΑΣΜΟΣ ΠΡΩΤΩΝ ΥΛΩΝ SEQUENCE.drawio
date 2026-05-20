@@ -1,10 +1,10 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="ynugujZIawzogecmN2KF">
-    <mxGraphModel dx="2264" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1765" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HVNQHJheMAaKemnErGm2-1" parent="1" style="text;whiteSpace=wrap;fontStyle=0" value="10) Περίπτωση χρήσης: Ανεφοδιασμός πρώτων υλών.&#xa;Βασική ροή:&#xa;1.  Το τμήμα προμηθειών επιλέγει απο το μενού &quot;ενφοδιασμός πρώτων υλών&quot;&#xa;&#xa;2.    Το σύστημα αναζητά τους συνεργαζόμενους προμυθευτές στην ΒΔ και εμφανίζει λίστα με τους συνεργαζόμενους προμηθευτές.&#xa;&#xa;3.    Το τμήμα προμήθειων επιλέγει έναν από τους συνεργαζόμενους προμηθευτές απο την λίστα με τους συνεργαζόμενους προμηθευτές.&#xa;&#xa;4.  Το σύστημα προσπαθεί να συνδεθεί με τον προμηθευτή και επιτυγχάνει.&#xa;&#xa;&#xa;5.    Το σύστημα ανοίγει παράθυρο για παραγγελία πρώτων υλών από τον προμηθευτή.&#xa;&#xa;&#xa;6.    Το τμήμα προμήθειων επιλέγει τις ποσότητες των πρώτων υλών που απαιτεί.&#xa;&#xa;&#xa;7.  Το συστημα εμφανίζει οθόνη ολοκληρωσης παραγγελείας&#xa;&#xa;&#xa;8.    Το τμήμα προμήθειων κλείνει το παράθυρο και επιστρέφει στο προηγούμενο μενού.&#xa;&#xa;Εναλλακτική ροή:&#xa;&#xa;&#xa;1.    [Βήμα 4 της βασικής ροής] Το σύστημα δεν μπορεί δημιουργήσει σύνδεση με τον συγκεκριμένο προμηθευτή.&#xa;&#xa;&#xa;2.    Το σύστημα εμφανίζει μήνυμα “Μη δυνατή σύνδεση με τον προμηθευτή. Παρακαλώ επιλέξτε διαφορετικό προμηθευτή. “.&#xa;&#xa;&#xa;3.    Το σύστημα κλείνει το παράθυρο.&#xa;&#xa;&#xa;4.    Η περίπτωση χρήσης συνεχίζεται στο βήμα 1 της βασικής ροής." vertex="1">
+        <mxCell id="HVNQHJheMAaKemnErGm2-1" parent="1" style="text;whiteSpace=wrap;fontStyle=0" value="10) Περίπτωση χρήσης: Ανεφοδιασμός πρώτων υλών.&#xa;Βασική ροή:&#xa;1.  Το τμήμα προμηθειών επιλέγει απο το μενού &quot;ενφοδιασμός πρώτων υλών&quot;&#xa;&#xa;2.    Το σύστημα αναζητά τους συνεργαζόμενους προμυθευτές στην ΒΔ και εμφανίζει λίστα με τους συνεργαζόμενους προμηθευτές.&#xa;&#xa;3.    Το τμήμα προμήθειων επιλέγει έναν από τους συνεργαζόμενους προμηθευτές απο την λίστα με τους συνεργαζόμενους προμηθευτές.&#xa;&#xa;4.  Το σύστημα προσπαθεί να συνδεθεί με τον προμηθευτή και επιτυγχάνει.&#xa;&#xa;&#xa;5.    Το σύστημα ανοίγει παράθυρο για παραγγελία πρώτων υλών από τον προμηθευτή.&#xa;&#xa;&#xa;6.    Το τμήμα προμήθειων επιλέγει τις ποσότητες των πρώτων υλών που απαιτεί.&#xa;&#xa;&#xa;7.  Το συστημα εμφανίζει οθόνη ολοκληρωσης παραγγελείας&#xa;&#xa;&#xa;8.    Το τμήμα προμήθειων κλείνει το παράθυρο και επιστρέφει στο προηγούμενο μενού.&#xa;&#xa;Εναλλακτική ροή:&#xa;&#xa;&#xa;1.    [Βήμα 4 της βασικής ροής] Το σύστημα δεν μπορεί δημιουργήσει σύνδεση με τον συγκεκριμένο προμηθευτή.&#xa;&#xa;&#xa;2.    Το σύστημα εμφανίζει μήνυμα “Μη δυνατή σύνδεση με τον προμηθευτή. Παρακαλώ επιλέξτε διαφορετικό προμηθευτή. “.&#xa;&#xa;&#xa;3.    Το σύστημα κλείνει το παράθυρο.&#xa;&#xa;&#xa;4.    Η περίπτωση χρήσης συνεχίζεται στο βήμα 1 της βασικής ροής." vertex="1">
           <mxGeometry height="580" width="560" x="-850" as="geometry" />
         </mxCell>
         <mxCell id="HVNQHJheMAaKemnErGm2-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
@@ -57,7 +57,7 @@
           <mxGeometry height="940" width="100" x="190" y="40" as="geometry" />
         </mxCell>
         <mxCell id="HVNQHJheMAaKemnErGm2-10" parent="HVNQHJheMAaKemnErGm2-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="610" width="10" x="45" y="60" as="geometry" />
+          <mxGeometry height="640" width="10" x="45" y="60" as="geometry" />
         </mxCell>
         <mxCell id="HVNQHJheMAaKemnErGm2-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="int()">
           <mxGeometry relative="1" width="60" x="-0.8333" as="geometry">
@@ -290,6 +290,9 @@
         </mxCell>
         <mxCell id="HVNQHJheMAaKemnErGm2-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="sendOrder()" vertex="1">
           <mxGeometry height="30" width="60" x="310" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="6giTq4wWmCBdn4ufJC1B-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="display()" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="860" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
