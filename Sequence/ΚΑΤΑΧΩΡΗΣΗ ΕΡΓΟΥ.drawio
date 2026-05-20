@@ -1,10 +1,10 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="Lkik1GC8SYcnMCq8jPYb">
-    <mxGraphModel dx="2144" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2145" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iw1ijzeILlWL6oUJYSG1-2" parent="1" style="text;whiteSpace=wrap;" value="6) Περίπτωση χρήσης: Καταχώρηση έργου.&#xa;Βασική ροή:&#xa;1.    Ο διαχειριστής επιλέγει από το μενού καταχώρηση έργου.&#xa;&#xa;2.    Το σύστημα εμφανίζει λίστα με τις παραγγελίας προς επεξεργασία.&#xa;&#xa;3.    Ο διαχειριστής επιλέγει μία από τις παραγγελίες.&#xa;&#xa;4.    Ο διαχειριστής εισάγει την ημερομηνία μέχρι την οποία πρέπει να ολοκληρωθεί το έργο.&#xa;&#xa;5.    Το σύστημα υπολογίζει τις πρώτες ύλες που απαιτούνται και δημιουργεί αίτημα προς το τμήμα προμηθειών.&#xa;&#xa;6.    Το σύστημα καταχωρεί το αίτημα και επιστρέφει στο μενού." vertex="1">
+        <mxCell id="iw1ijzeILlWL6oUJYSG1-2" parent="1" style="text;whiteSpace=wrap;" value="6) Περίπτωση χρήσης: Καταχώρηση έργου.&#xa;Βασική ροή:&#xa;1.    Ο διαχειριστής επιλέγει από το μενού καταχώρηση έργου.&#xa;&#xa;2.    Το σύστημα εμφανίζει λίστα με τις παραγγελίας προς επεξεργασία.&#xa;&#xa;3.    Ο διαχειριστής επιλέγει μία από τις παραγγελίες.&#xa;&#xa;4.    Ο διαχειριστής εισάγει την ημερομηνία μέχρι την οποία πρέπει να ολοκληρωθεί το έργο.&#xa;&#xa;5.    Το σύστημα υπολογίζει τις πρώτες ύλες που απαιτούνται και δημιουργεί αίτημα προς το τμήμα προμηθειών.&#xa;&#xa;6.    Το σύστημα καταχωρεί το αίτημα και επιστρέφει στο μενού." vertex="1">
           <mxGeometry height="220" width="560" x="-1169" as="geometry" />
         </mxCell>
         <mxCell id="iw1ijzeILlWL6oUJYSG1-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
@@ -40,7 +40,7 @@
         <mxCell id="BlGQOmj9H-zvIoqT1n0f-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" value="int()">
           <mxGeometry relative="1" width="60" x="-0.871" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="-550" y="80" as="sourcePoint" />
+            <mxPoint x="-510" y="80" as="sourcePoint" />
             <mxPoint x="-210" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
