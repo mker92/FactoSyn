@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36">
   <diagram id="sd05" name="SD-05 Επεξεργασία Λίστας Υλικών">
-    <mxGraphModel dx="1768" dy="1104" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1150" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="1173" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1150" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
             <mxPoint x="362" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc05_p_menu_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="AdministratorMenu" vertex="1">
+        <mxCell id="uc05_p_menu_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Μενού Διαχειριστή" vertex="1">
           <mxGeometry height="44" width="145" x="445" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc05_p_menu_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
@@ -64,7 +64,7 @@
             <mxPoint x="517" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc05_p_list_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="ProductList" vertex="1">
+        <mxCell id="uc05_p_list_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Λίστα Προϊόντων" vertex="1">
           <mxGeometry height="44" width="145" x="625" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc05_p_list_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
@@ -76,7 +76,7 @@
             <mxPoint x="697" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc05_p_form_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="MaterialForm" vertex="1">
+        <mxCell id="uc05_p_form_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Φόρμα Υλικών" vertex="1">
           <mxGeometry height="44" width="150" x="820" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc05_p_form_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
@@ -100,7 +100,7 @@
             <mxPoint x="1145" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc05_p_product_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Product" vertex="1">
+        <mxCell id="uc05_p_product_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Προϊόν" vertex="1">
           <mxGeometry height="44" width="130" x="1310" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc05_p_product_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
@@ -112,7 +112,7 @@
             <mxPoint x="1375" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc05_p_material_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Material" vertex="1">
+        <mxCell id="uc05_p_material_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Υλικό" vertex="1">
           <mxGeometry height="44" width="130" x="1495" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc05_p_material_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
@@ -124,7 +124,7 @@
             <mxPoint x="1560" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc05_p_bom_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="ProductMaterialList" vertex="1">
+        <mxCell id="uc05_p_bom_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Λίστα Υλικών Προϊόντος" vertex="1">
           <mxGeometry height="44" width="175" x="1670" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc05_p_bom_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">

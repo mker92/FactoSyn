@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36">
   <diagram id="sd04" name="SD-04 Δημιουργία Νέου Προϊόντος">
-    <mxGraphModel dx="1768" dy="1104" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1150" math="0" shadow="0">
+    <mxGraphModel dx="2211" dy="1140" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1150" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
             <mxPoint x="362" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc04_p_menu_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="AdministratorMenu" vertex="1">
+        <mxCell id="uc04_p_menu_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Μενού Διαχειριστή" vertex="1">
           <mxGeometry height="44" width="145" x="450" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc04_p_menu_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
@@ -61,7 +61,7 @@
             <mxPoint x="522" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc04_p_form_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="NewProductForm" vertex="1">
+        <mxCell id="uc04_p_form_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Φόρμα Νέου Προϊόντος" vertex="1">
           <mxGeometry height="44" width="170" x="650" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc04_p_form_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
@@ -73,7 +73,7 @@
             <mxPoint x="735" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc04_p_ctrl_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ProductController&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="uc04_p_ctrl_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":ProductController" vertex="1">
           <mxGeometry height="44" width="160" x="910" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc04_p_ctrl_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
@@ -85,7 +85,7 @@
             <mxPoint x="990" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc04_p_product_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Product" vertex="1">
+        <mxCell id="uc04_p_product_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":Προϊόν" vertex="1">
           <mxGeometry height="44" width="130" x="1170" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc04_p_product_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
