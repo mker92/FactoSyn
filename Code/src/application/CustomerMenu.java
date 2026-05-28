@@ -1,26 +1,37 @@
 package application;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 
 
 
 public class CustomerMenu {
-	public void openWindow() {
-        Button acceptOffer = new Button("Αποδοχή προσφοράς");
-        Button requestOffer = new Button("Αίτημα προφοράς");
-		
-        Stage newStage = new Stage();
-        newStage.setTitle("FactoSyn");
-   
-        
-        HBox layout = new HBox(2);
-        layout.getChildren().add(acceptOffer);
-        layout.getChildren().add(requestOffer);
-        
-        Scene scene = new Scene(layout, 300, 200);
-        newStage.setScene(scene);
-        newStage.show();
-    }
+
+	public	void productSelScreen(ActionEvent event) {
+		try {
+			Parent root = FXMLLoader.load(getClass().getResource("ProductSelectionScreen.fxml"));
+			Scene scene = new Scene(root);
+			
+			Stage newstage = (Stage)((Node)event.getSource()).getScene().getWindow();
+			
+			
+			Image small_app = new Image(getClass().getResourceAsStream("Picture1.png"));
+			
+			newstage.setScene(scene);
+			newstage.setTitle("FactoSyn");
+			newstage.getIcons().add(small_app);
+			newstage.setResizable(false);
+			newstage.show();
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
 }
