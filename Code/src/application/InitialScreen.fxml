@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <Button layoutX="225.0" layoutY="304.0" mnemonicParsing="false" onAction="#openCustomerLoginScreen" prefHeight="29.0" prefWidth="148.0" text="LOGIN AS CUSTOMER" textOverrun="CLIP" />
+      <Button layoutX="410.0" layoutY="304.0" mnemonicParsing="false" onAction="#openStaffLoginScreen" prefHeight="29.0" prefWidth="148.0" text="LOGIN AS STAFF" textAlignment="CENTER" />
+      <ImageView fitHeight="226.0" fitWidth="272.0" layoutX="264.0" layoutY="50.0">
+         <image>
+            <Image url="@Picture1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
