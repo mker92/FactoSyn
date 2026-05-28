@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2175" dy="1358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1885" dy="1177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
             <mxPoint x="205" y="140.41000000000008" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kbrgNKhV7KFLBGMOOJXy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Menu" vertex="1">
+        <mxCell id="kbrgNKhV7KFLBGMOOJXy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CustomerMenu" vertex="1">
           <mxGeometry height="40" width="100" x="160" y="40" as="geometry" />
         </mxCell>
         <mxCell id="kbrgNKhV7KFLBGMOOJXy-157" edge="1" parent="1" source="qEnTOmmMp5n_cRB0mtSp-4" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">

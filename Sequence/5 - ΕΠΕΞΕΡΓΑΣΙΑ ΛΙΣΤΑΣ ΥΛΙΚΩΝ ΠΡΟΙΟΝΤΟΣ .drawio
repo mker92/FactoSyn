@@ -88,7 +88,7 @@
             <mxPoint x="895" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uc05_p_ctrl_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value=":MaterialListController" vertex="1">
+        <mxCell id="uc05_p_ctrl_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="MaterialListController" vertex="1">
           <mxGeometry height="44" width="190" x="1050" y="90" as="geometry" />
         </mxCell>
         <mxCell id="uc05_p_ctrl_life_end" parent="1" style="ellipse;html=1;shape=ellipse;fillColor=none;strokeColor=none;opacity=0;connectable=1;" value="" vertex="1">
