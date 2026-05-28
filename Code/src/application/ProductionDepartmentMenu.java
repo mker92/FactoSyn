@@ -7,11 +7,21 @@ import javafx.scene.control.Button;
 
 
 public class ProductionDepartmentMenu {
+	private ManageSuppliesClass msc = new ManageSuppliesClass();
 	public void openWindow() {
         Button assignWorkers = new Button("Ανάθεση εργατών");
         Button assignMachine = new Button("Δέσμευση μηχανής");
         Button fixMachine = new Button("Eπιδιόρθωση ελλατωματικής μηχανής");
-        Button orderUpdate = new Button("Ενημέρωση κατάστασης παραγγελίας");		
+        Button orderUpdate = new Button("Ενημέρωση κατάστασης παραγγελίας");
+        
+        supplyRequest.setOnAction(event -> {
+	    	System.out.println("sms.chose supplyrequest");
+	    	msc.searchRequests();
+	    });
+	    resupplyMaterials.setOnAction(event -> {
+	    	System.out.println("sms.chose resupplymaterials");
+	    	msc.findSuppliers();
+	    });
 		
         Stage newStage = new Stage();
         newStage.setTitle("FactoSyn");
