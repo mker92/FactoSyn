@@ -34,9 +34,9 @@
             <Image url="@Picture1.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="121.0" fitWidth="200.0" layoutX="17.0" layoutY="57.0" style="visibility: true;">
+      <ImageView fitHeight="121.0" fitWidth="200.0" layoutX="17.0" layoutY="57.0">
          <image>
-            <Image url="@../../Documents/GitHub/FactoSyn/Code/src/application/Shoppingcart.png" />
+            <Image url="@Shoppingcart.png" />
          </image>
       </ImageView>
    </children>
