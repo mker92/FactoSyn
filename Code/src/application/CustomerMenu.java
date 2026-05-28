@@ -1,15 +1,12 @@
 package application;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.HBox;
-import javafx.stage.Stage;
-import javafx.scene.control.Button;
 import javafx.scene.image.Image;
-
-
+import javafx.stage.Stage;
 
 public class CustomerMenu {
 
@@ -33,5 +30,4 @@ public class CustomerMenu {
 			e.printStackTrace();
 		}
 	}
-
 }
