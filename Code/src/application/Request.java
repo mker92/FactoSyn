@@ -1,5 +1,5 @@
 package application;
 
-public record Request(String reqName, String reqStatus){
+public record Request(String reqName, boolean reqStatus){
 	
 }
