@@ -161,7 +161,7 @@
         <mxCell id="DOp_hyT4hmIksqkOZXSQ-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="return projects" vertex="1">
           <mxGeometry height="20" width="90" x="805" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="DOp_hyT4hmIksqkOZXSQ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="getProjects()" vertex="1">
+        <mxCell id="DOp_hyT4hmIksqkOZXSQ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="getProjectList()" vertex="1">
           <mxGeometry height="30" width="60" x="450" y="170" as="geometry" />
         </mxCell>
         <mxCell id="DOp_hyT4hmIksqkOZXSQ-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="DOp_hyT4hmIksqkOZXSQ-9" value="">
@@ -200,7 +200,7 @@
         <mxCell id="DOp_hyT4hmIksqkOZXSQ-16" parent="1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="40" width="10" x="895" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="DOp_hyT4hmIksqkOZXSQ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="getProjectDetails" vertex="1">
+        <mxCell id="DOp_hyT4hmIksqkOZXSQ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="getProjectDetails()" vertex="1">
           <mxGeometry height="30" width="60" x="620" y="330" as="geometry" />
         </mxCell>
         <mxCell id="DOp_hyT4hmIksqkOZXSQ-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" value="">
