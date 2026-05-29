@@ -1,4 +1,4 @@
-alexandros-kiskiras-admin
+alexandros-kiskiras-administrator
 konstantinos-karamanis-sales
 marios-kerasidis-production
 giannis-giannakopoulos-supply

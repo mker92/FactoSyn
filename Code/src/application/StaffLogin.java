@@ -43,24 +43,24 @@ public class StaffLogin {
 				String[] credentials = line.split("-");
 				String storedUsername = credentials[0];
 				String storedPassword = credentials[1];
-				String storedDepartment = credentials[3];
+				String storedDepartment = credentials[2];
 				
-				if(username.equals(storedUsername) && password.equals(storedPassword) && storedDepartment.equals("Supply")) {
+				if(username.equals(storedUsername) && password.equals(storedPassword) && storedDepartment.equals("supply") ) {
 					openSupplyMenu(event);
 					reader.close();
 					return;
 				}
-				else if(username.equals(storedUsername) && password.equals(storedPassword) && storedDepartment.equals("Sales")) {
+				else if(username.equals(storedUsername) && password.equals(storedPassword) && storedDepartment.equals("sales")  ) {
 					openSalesMenu(event);
 					reader.close();
 					return;
 				}
-				else if(username.equals(storedUsername) && password.equals(storedPassword) && storedDepartment.equals("Administrator")) {
+				else if(username.equals(storedUsername) && password.equals(storedPassword) && storedDepartment.equals("administrator") ) {
 					openAdministratorMenu(event);
 					reader.close();
 					return;
 				}
-				else if(username.equals(storedUsername) && password.equals(storedPassword) && storedDepartment.equals("Production")) {
+				else if(username.equals(storedUsername) && password.equals(storedPassword) && storedDepartment.equals("production") ) {
 					openProductionMenu(event);
 					reader.close();
 					return;
