@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SupplyRequests{
-	SupplyRequests requests = new SupplyRequests();
+	
 	public String reqName;
 	public String reqStatus;
 	
@@ -12,9 +12,18 @@ public class SupplyRequests{
 	List<Request> requestlist = new ArrayList<>();
 	
 	
-	public /*List<Request>*/ void queryRequests() {
+	public List<Request> queryRequests() {
 		System.out.println("sr.query");
-//		return results;
+		
+		Request r1 = new Request("r1", false);
+		Request r2 = new Request("r2", true);
+		Request r3 = new Request("r1", true);
+		
+		requestlist.add(r1);
+		requestlist.add(r2);
+		requestlist.add(r3);
+		
+		return requestlist;
 	}
 	
 	public void sendSupplyRequest(){
