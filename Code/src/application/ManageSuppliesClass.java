@@ -1,20 +1,18 @@
 package application;
 
+import java.io.IOException;
 import java.util.List;
+
+import javafx.stage.Stage;
 
 public class ManageSuppliesClass{
 	private SupplyDepartmentMenu sms;
 	private SupplyRequests sr;
 	private SupplyRequestsScreen srs;
 	private Supplies supplies;
+
 	
-	public void init() {
-		System.out.println("msc");
-		this.sms = new SupplyDepartmentMenu();		
-		sms.openWindow();
-	}
-	
-	public void searchRequests() {
+	public void searchRequests(Stage currentStage) throws IOException {
 		System.out.println("msc.searchReq\n\tchose: διαχειρηση αιτηματος προμυθειων ");
 		
 		this.sr = new SupplyRequests();
@@ -22,7 +20,7 @@ public class ManageSuppliesClass{
 		System.out.println("msc.returned from search");
 		
 		this.srs = new SupplyRequestsScreen();
-		srs.showRequests(requests);
+		srs.showRequests(currentStage, requests);
 	}
 	
 	public void findSuppliers() {
