@@ -13,6 +13,10 @@ public class ProductListScreen {
 	@FXML
 	private VBox productList;
 	
+	public void initialize() {
+		getProductList();
+	}
+	
 	public void getProductList() {
 		try {
 			
@@ -31,6 +35,9 @@ public class ProductListScreen {
 				
 				productList.getChildren().add(button);
 			}
+			
+			reader.close();
+			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
