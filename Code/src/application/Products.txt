@@ -1,0 +1,6 @@
+Wood Planks-1
+Table-2
+Stove-3
+Couch-4
+Chair-5
+Board-6
