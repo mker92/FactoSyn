@@ -275,6 +275,9 @@
             <mxPoint x="1030" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vfRM5XD8ZcxlEkQsUkVK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="getOfferDetails()" vertex="1">
+          <mxGeometry height="30" width="75" x="522.5" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

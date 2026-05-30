@@ -10,54 +10,58 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class ProductListScreen {
-    
+public class ProductInfoScreen {
+
 	@FXML
-	private VBox productList;
+	private Label product;
 	
+	@FXML
+	private TextArea info;
 	
-	public void initialize() {
-		getProductList();
+	public String offerproduct;
+	public String prodInfo;
+	
+	public void setProduct(String productname) {
+		product.setText(productname);
+		getProductInfo(productname);
+		offerproduct = productname;
 	}
 	
-	public void getProductList() {
+	public void getProductInfo(String productName) {
 		try {
-			
 			InputStream input = getClass().getResourceAsStream("Products.txt");
 			BufferedReader reader = new BufferedReader(new InputStreamReader(input));
 			String line;
 			
 			while( ( line = reader.readLine() ) != null) {
-				String[] product = line.split("-");
-				Button button = new Button(product[0]);
-				button.setMaxWidth(Double.MAX_VALUE);
-				
-				button.setOnAction(event ->{
-					prodInfoScreen(product[0],event);
-				});
-				
-				productList.getChildren().add(button);
-			}
-			
-			reader.close();
-			
+				String[] selectedProduct = line.split("-");
+				if(selectedProduct[0].equals(productName)) {
+					info.appendText(selectedProduct[1]);
+					info.setWrapText(true);
+					prodInfo = selectedProduct[1];
+					reader.close();
+					return;
+				}
+				else {
+					info.setText("Δεν μπορέσαμε να ανακτήσουμε τα στοιχεία του προϊόντος.");
+				}
+			}	
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
-	public void prodInfoScreen(String productname,ActionEvent event) {
+	public	void orderScreen(ActionEvent event) {
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("ProductInfoScreen.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("OrderInputScreen.fxml"));
 			Parent root = loader.load();
-			ProductInfoScreen control = loader.getController();
-			control.setProduct(productname);
+			OrderInputScreen control = loader.getController();
+			control.setFinalProduct(offerproduct,prodInfo);
 			Scene scene = new Scene(root);
 			
 			Stage newstage = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -70,7 +74,6 @@ public class ProductListScreen {
 			newstage.getIcons().add(small_app);
 			newstage.setResizable(false);
 			newstage.show();
-			
 			
 		} catch(Exception e) {
 			e.printStackTrace();
