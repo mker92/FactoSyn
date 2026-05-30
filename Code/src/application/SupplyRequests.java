@@ -14,14 +14,14 @@ public class SupplyRequests{
 	
 	public List<Request> queryRequests() {
 		System.out.println("sr.query");
-		
+		//simulating the results of a query by adding some examples
 		Request r1 = new Request("r1", false);
-		Request r2 = new Request("r2", true);
-		Request r3 = new Request("r1", true);
+		Request Avail = new Request("Availability", true);
+		Request noAv = new Request("No_Availability", true);
 		
 		requestlist.add(r1);
-		requestlist.add(r2);
-		requestlist.add(r3);
+		requestlist.add(Avail);
+		requestlist.add(noAv);
 		
 		return requestlist;
 	}
@@ -34,8 +34,13 @@ public class SupplyRequests{
 		
 	}
 	
-	public void requestsCompleted() {
-		
+	public void requestsCompleted(Request request) {
+		System.out.println("sr.requestsCompleted()");
+
+        Request updatedRequest = new Request(request.reqName(), false);
+        int index = requestlist.indexOf(request);
+        requestlist.set(index, updatedRequest);
+        System.out.println("sr.requestsCompleted reqlist: "+ requestlist);
 	}
 	
 	public void requestPending() {

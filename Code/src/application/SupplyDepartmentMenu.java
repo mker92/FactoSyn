@@ -7,11 +7,14 @@ import javafx.scene.Scene;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
+import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.Label;
 
 
 
 public class SupplyDepartmentMenu {
 	private ManageSuppliesClass msc = new ManageSuppliesClass();
+	
 
 	public void manageSupplyRequests(ActionEvent event) throws IOException {
 		System.out.println("sms.chose supplyrequest");
@@ -19,7 +22,7 @@ public class SupplyDepartmentMenu {
 	    msc.searchRequests(currentStage);
 	}
 	
-	public void resupplyMaterials() {
+	public void resupplyMaterials(ActionEvent event) {
 		System.out.println("sms.chose resupplyMaterials");
 		msc.findSuppliers();
 	}
