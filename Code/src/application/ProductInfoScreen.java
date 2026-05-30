@@ -24,6 +24,7 @@ public class ProductInfoScreen {
 	private TextArea info;
 	
 	public String offerproduct;
+	public String prodInfo;
 	
 	public void setProduct(String productname) {
 		product.setText(productname);
@@ -42,6 +43,7 @@ public class ProductInfoScreen {
 				if(selectedProduct[0].equals(productName)) {
 					info.appendText(selectedProduct[1]);
 					info.setWrapText(true);
+					prodInfo = selectedProduct[1];
 					reader.close();
 					return;
 				}
@@ -59,7 +61,7 @@ public class ProductInfoScreen {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("OrderInputScreen.fxml"));
 			Parent root = loader.load();
 			OrderInputScreen control = loader.getController();
-			control.setFinalProduct(offerproduct);
+			control.setFinalProduct(offerproduct,prodInfo);
 			Scene scene = new Scene(root);
 			
 			Stage newstage = (Stage)((Node)event.getSource()).getScene().getWindow();

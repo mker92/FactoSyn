@@ -22,7 +22,7 @@
          </font>
       </Label>
       <Button layoutX="276.0" layoutY="153.0" mnemonicParsing="false" onAction="#prodListScreen" prefHeight="50.0" prefWidth="400.0" text="ΥΠΑΡΧΟΝ ΠΡΟΙΟΝ" />
-      <Button layoutX="276.0" layoutY="210.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="400.0" text="ΝΕΟ ΠΡΟΙΟΝ" />
+      <Button layoutX="276.0" layoutY="210.0" mnemonicParsing="false" onAction="#uploadMessage" prefHeight="50.0" prefWidth="400.0" text="ΝΕΟ ΠΡΟΙΟΝ" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="109.0" layoutX="29.0" layoutY="366.0" stroke="BLACK" strokeType="INSIDE" width="739.0" />
       <Label alignment="CENTER" layoutX="84.0" layoutY="379.0" prefHeight="84.0" prefWidth="478.0" text="Συντονισμός &amp; Δημιουργία">
          <font>
@@ -39,5 +39,15 @@
             <Image url="@Shoppingcart.png" />
          </image>
       </ImageView>
+      <AnchorPane fx:id="uploadMsg" layoutX="189.0" layoutY="111.0" prefHeight="198.0" prefWidth="460.0" style="-fx-background-color: yellow; visibility: false;">
+         <children>
+            <Label alignment="CENTER" layoutX="50.0" layoutY="35.0" prefHeight="64.0" prefWidth="360.0" text="ΧΡΕΙΑΖΕΤΑΙ ΝΑ ΑΝΕΒΑΣΕΤΕ ΑΡΧΕΙΟ ΠΡΟΔΙΑΓΡΑΦΩΝ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button layoutX="165.0" layoutY="118.0" mnemonicParsing="false" onAction="#fileUpload" prefHeight="25.0" prefWidth="130.0" text="ΕΠΟΜΕΝΟ" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

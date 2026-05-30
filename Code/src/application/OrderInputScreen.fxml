@@ -10,7 +10,6 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OrderInputScreen">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="109.0" layoutX="39.0" layoutY="376.0" stroke="BLACK" strokeType="INSIDE" width="739.0" />
@@ -35,7 +34,7 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="292.0" layoutX="262.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="516.0" />
-      <Button layoutX="282.0" layoutY="299.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="478.0" text="ΟΛΟΚΛΗΡΩΣΗ ΑΙΤΗΜΑΤΟΣ" />
+      <Button layoutX="282.0" layoutY="299.0" mnemonicParsing="false" onAction="#createOfferRequest" prefHeight="32.0" prefWidth="478.0" text="ΟΛΟΚΛΗΡΩΣΗ ΑΙΤΗΜΑΤΟΣ" />
       <Label fx:id="finalProduct" layoutX="446.0" layoutY="19.0" prefHeight="42.0" prefWidth="151.0">
          <font>
             <Font name="System Bold" size="20.0" />
@@ -47,11 +46,21 @@
             <Font name="System Bold Italic" size="10.0" />
          </font>
       </Label>
-      <DatePicker layoutX="482.0" layoutY="200.0" prefHeight="42.0" prefWidth="278.0" />
+      <DatePicker fx:id="deliveryDate" layoutX="482.0" layoutY="200.0" prefHeight="42.0" prefWidth="278.0" />
       <Label alignment="CENTER" layoutX="264.0" layoutY="189.0" prefHeight="64.0" prefWidth="218.0" text="ΕΠΙΘΗΜΥΤΗ ΗΜΕΡΟΜΗΝΙΑ ΠΑΡΑΔΟΣΗΣ:">
          <font>
             <Font name="System Bold Italic" size="10.0" />
          </font>
       </Label>
+      <AnchorPane fx:id="completeMessage" layoutX="179.0" layoutY="101.0" prefHeight="198.0" prefWidth="460.0" style="-fx-background-color: yellow; visibility: false;">
+         <children>
+            <Label alignment="CENTER" layoutX="50.0" layoutY="35.0" prefHeight="64.0" prefWidth="360.0" text="ΕΥΧΑΡΙΣΤΟΥΜΕ ΓΙΑ ΤΟ ΑΙΤΗΜΑ ΣΑΣ !!!">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Button fx:id="exitbut" layoutX="165.0" layoutY="118.0" mnemonicParsing="false" onAction="#exitbut" prefHeight="25.0" prefWidth="130.0" text="ΕΞΟΔΟΣ" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>
